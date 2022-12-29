@@ -5,7 +5,7 @@ import Constants from "expo-constants";
 export default StyleSheet.create({
     container: {
         flex:1,
-        justifyContent: 'center',
+        marginTop: Constants.statusBarHeight+10,
         padding: 30
     },
     switchRow:{
